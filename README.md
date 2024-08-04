@@ -218,6 +218,12 @@ PUT (Ej: id 11) (no se toca el precio total, se calcula automáticamente)
 
 
 # Sin API GATEWAY
+```
 Microservice-user -> 8090 (MYSQL)
+```
+```
 microservice-product -> 9090 (POSTGRESQL)
+```
+```
 microservice-userpurchase -> 8092 (MYSQL)
+```
