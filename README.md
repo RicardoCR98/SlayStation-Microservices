@@ -29,7 +29,7 @@ http://localhost:8080/api/security-questions/1
 ### Ejemplos JSON
 
 #### Users
-```
+```JSON
 POST 
 {
     "userName": "Polina",
@@ -75,7 +75,7 @@ PUT (Ej: id 1)
 ```
 
 #### Security-Questions
-```
+```JSON
 POST 
 {
     "question": "¿Cuál es el nombre de tu escuela primaria?",
