@@ -1,0 +1,10 @@
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 499.99, 1, 1);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (2, 999.98, 2, 1);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 499.99, 3, 2);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 59.99, 4, 4);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (3, 179.97, 5, 4);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 49.99, 1, 5);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (2, 99.98, 2, 5);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 299.99, 3, 3);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (2, 599.98, 4, 3);
+INSERT INTO user_purchases (quantity, total_price, user_id, product_id) VALUES (1, 59.99, 5, 4);
