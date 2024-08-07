@@ -44,6 +44,11 @@ public class UserServiceImpl implements IUserService{
         }
         userRepository.deleteById(id);
     }
+
+    @Override
+    public User getUserByEmail(String email) {
+        return userRepository.findByUserEmail(email).orElseThrow(() -> new UserNotFoundException("User not found with email: " + email));
+    }
 }
 class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {

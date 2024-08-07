@@ -26,6 +26,12 @@ public class UserController {
         return ResponseEntity.ok(userService.getUserById(id));
     }
 
+    @PostMapping("/login")
+    public ResponseEntity<User> getUserByEmail(@RequestBody User user) {
+        return ResponseEntity.ok(userService.getUserByEmail(user.getUserEmail()));
+    }
+
+
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody User user) {
         User createdUser = userService.createUser(user);

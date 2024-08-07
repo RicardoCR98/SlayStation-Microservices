@@ -10,4 +10,5 @@ public interface IUserService {
     User getUserById(Integer id);
     User updateUser(User user);
     void deleteUser(Integer id);
+    User getUserByEmail(String email);
 }
