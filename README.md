@@ -2,6 +2,11 @@
 
 Este proyecto implementa una arquitectura de microservicios utilizando **Spring Boot** y **Spring Cloud**. Cada microservicio maneja una funcionalidad independiente y se comunica con los demás a través de **Eureka Discovery** y **OpenFeign**.
 
+## Arquitectura de la aplicación web
+
+![Untitled-2024-09-12-1551](https://github.com/user-attachments/assets/c7b25a08-09f0-47d0-bd4d-30d988128d2d)
+
+
 ## Requisitos previos
 - Java 21+
 - Maven 3.8+
